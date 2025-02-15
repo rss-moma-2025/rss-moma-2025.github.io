@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+</script>
+<script type="text/javascript"
+        src="http://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <title>Mobile Manipulation: Emerging Opportunities & Contemporary Challenges</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<div class="nav">
+    <div class="nav-container">
+        <img src="./static/images/RSS2025-logo.png" width="150px" style="margin-right: 30px;">
+        <a href="index.html#">Home</a>
+        <a href="index.html#intro">Introduction</a>
+        <a href="index.html#call">Call for Papers</a>
+        <!-- <a href="index.html#challenge">Challenge</a> -->
+        <a href="index.html#schedule">Schedule</a>
+        <a href="index.html#speakers">Speakers</a>
+        <a href="index.html#organizers">Organizers</a>
+    </div>
+</div>
+
+<div class="title-container">
+    <div style="text-align: center;" class="title-text">
+        <div style="width: 100%; margin: auto;z-index: 2; position: relative;">
+            <div class="subtitle">RSS workshop on</div>
+            <h1><b>Mobile Manipulation: Emerging Opportunities & Contemporary Challenges</b></h1>
+            <div class="subtitle" style="margin: 20px;">
+                June 25, 2025, Los Angeles, CA<br>Location: University of Southern California
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- <div class="title-container">
+  <div style="text-align: center;" class="title-text">
+    <div style="width: 90%; margin: auto;z-index: 2; position: relative;">
+    <div class="subtitle">The first CVPR workshop on</div>
+    <h1> <b>3D Vision Language Model for Robotic
+      Manipulation: Opportunities and Challenges </b></h1>
+    <div class="subtitle" style=" margin: 20px">
+      June 18, 2024, Seattle, WA. Room: Summit 434.
+    </div>
+    </div>
+  </div>
+</div> -->
+
+<div class="container">
+    <div class="section" id="intro">
+        <h2>Introduction</h2>
+
+        <p>
+
+            Recent advances in large-scale robot data have opened up possibilities for developing general-purpose
+            policies for tabletop manipulation, while progress in universal, cross-embodiment end-to-end navigation has
+            significantly advanced mobility. This convergence naturally motivates research into <b>mobile
+            manipulation</b> (MoMA), an
+            interdisciplinary field that integrates mobility with dexterity to enable robots to operate in large,
+            dynamic, and human-centric environments. Compared to tabletop setups, mobile manipulation presents distinct
+            challenges, including hardware design trade-offs (e.g., bimanual arms, torso structures, wheeled or legged
+            bases), low-level control complexities for whole-body coordination, and scalability challenges in real-world
+            data collection and skill learning. The field also raises fundamental questions about sim-to-real transfer,
+            egocentric vision, and long-horizon reasoning. Furthermore, mobile manipulators introduce new dimensions to
+            human-robot interaction, requiring safety and adaptability in extended workspaces. Addressing these
+            challenges will unlock the full potential of mobile manipulators across unstructured environments such as
+            homes, hospitality, logistics, gastronomy, retail, and agriculture, driving progress toward general-purpose,
+            intelligent robots. Key topics include:
+        <ul>
+            <li><b>Tasks and New Challenges:</b> What are the critical tasks and application domains for mobile manipulation that should be prioritized? What additional challenges does mobile manipulation present compared to a tabletop setup?</li>
+            <li><b>Hardware Design:</b> What is the optimal form factor for a mobile manipulator? Should we prioritize anthropomorphic designs or appliance-like robots? Specifically, how should we decide between bimanual arms, torso structures, wheeled bases, or legged systems?</li>
+            <li><b>Low-level Control:</b> Controlling a robot with many DoFs is a significant challenge. How can we effectively integrate planning and control for executing low-level motions and whole-body coordination?</li>
+            <li><b>Egocentric Perception and Scene Representation:</b> What new challenges arise in mobile manipulation with moving cameras? How does it impact the formulation of action space and visual representations in the 3D scenes?</li>
+            <li><b>Real-world Data Scaling:</b> Can advanced human-robot interfaces enhance teleoperation and motion capture systems for demonstration collection? How can action-free videos facilitate skill learning in the mobile manipulation domain?</li>
+            <li><b>Sim-to-Real Transfer:</b> How can simulation accelerate learning for mobile manipulation while ensuring effective real-world deployment? Can sim-to-real techniques developed for navigation be adapted to mobile manipulation?</li>
+            <li><b>Long-horizon Planning and Reasoning:</b> How can mobile manipulators efficiently plan and execute long-horizon tasks that require multiple sequential interactions and reasoning? How can large pre-trained models (e.g., LLM, VLM, VLA, World Models) facilitate new capabilities of mobile robots?</li>
+            <li><b>Human-Robot Interaction:</b> Mobile manipulators work in the extended workspace. What new challenges and opportunities does it pose and what safety considerations should be addressed in human-centric environments?</li>
+        </ul>
+
+        By addressing these questions, the workshop aims to foster discussions on advancing next-generation
+        systems and learning for mobile manipulation.
+
+        </p>
+
+
+    </div>
+
+    <div class="section" id="call">
+        <h2>Call for Papers</h2>
+        <p>
+            We are excited to announce the Call for Papers for the RSS MoMA workshop. We invite original contributions
+            presenting novel ideas, research, and applications relevant to the workshop’s theme.
+        </p>
+
+        <h2>Important Dates</h2>
+        <table>
+            <thead>
+            <tr>
+                <th>Event</th>
+                <th>Date</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td><strong>Call for Papers</strong></td>
+                <td>TBD</td>
+            </tr>
+            <tr>
+                <td><strong>Submission Deadline</strong></td>
+                <td>TBD</td>
+            </tr>
+            <tr>
+                <td><strong>Notification</strong></td>
+                <td>TBD</td>
+            </tr>
+            <tr>
+                <td><strong>Camera-Ready</strong></td>
+                <td>TBD</td>
+            </tr>
+            </tbody>
+        </table>
+
+        <h2>Submission Guidelines</h2>
+        <ul>
+            <li><strong>Page Limit:</strong> There are no page length requirements, but we suggest a length around 4-9 pages long. There is no limit on
+                the number of pages for references or appendices.
+            </li>
+            <li><strong>Formatting:</strong> Submissions are encouraged to use the RSS 2025 or CoRL 2025 templates.</li>
+            <li><strong>Anonymity:</strong> All submissions must be anonymized. Please remove any author names,
+                affiliations, or identifying information.
+            </li>
+            <li><strong>Relevant Work:</strong> We welcome references to recently published, relevant work (e.g., RSS,
+                CoRL, ICRA, and CVPR).
+            </li>
+            <li><strong>Archival Status:</strong> All accepted papers are non-archival.</li>
+            <li><strong>Link:</strong> <a
+                    href="">openreview
+                submission</a></li>
+            <p>
+                Accepted papers will be presented in the form of posters at the workshop. In addition, selected papers
+                may be invited to deliver spotlight talks.
+            </p>
+        </ul>
+        </p>
+        <h3>Paper topics</h3>
+        <p>
+            A non-exhaustive list of relevant topics:
+        <ul>
+            <li>Benchmarks for Mobile Manipulation</li>
+            <li>Novel Designs of Mobile Manipulator Hardware</li>
+            <li>Low-Level, Whole-Body Control for Mobile Manipulation</li>
+            <li>Representations for Mobile Manipulation</li>
+            <li>Data Collection for Learning Mobile Manipulation</li>
+            <li>Mobile Manipulation Simulations and Sim-to-Real Transfer</li>
+            <li>Reasoning and Planning Algorithms for Mobile Manipulation</li>
+            <li>Human-Robot Interaction in Mobile Manipulation</li>
+        </ul>
+        </p>
+        <!-- <h3>Submission Guidelines</h3>
+        <p>
+          <ul>
+            <li><b>Submission Portal:</b> <a href="https://openreview.net/group?id=ICLR.cc/2022/Workshop/GPL">OpenReview</a></li>
+            <li><b>Paper Length:</b>
+              Submissions could be either <b>4-page</b> short papers or <b>8-page</b> long papers, excluding references, acknowledgements, and appendices.
+            </li>
+            <li><b>Format:</b>
+              <ul>
+                <li>You must format your submission using the <a href="../assets/gpl_iclr2022.zip"> updated ICLR 2022 LaTeX style file.</a></li>
+                <li>Please include the references and supplementary materials in the same PDF as the main paper. </li>
+                <li>The maximum file size for submissions is 100MB. Submissions that violate the ICLR style (e.g., by decreasing margins or font sizes) or page limits may be rejected without further review. </li>
+              </ul>
+            </li>
+            <li><b>Dual Submission:</b>
+              <ul>
+                <li>Papers to be submitted or in preparation for submission to other major venues (including ICML 2022) in the field are allowed.</li>
+                <li>We also weclome published works, but they must be explicitly stated at the time of submission.</li>
+              </ul>
+            </li>
+            <li><b>Non-archival:</b> The workshop is a non-archival venue and will not have official proceedings. Workshop submissions can be subsequently or concurrently submitted to other venues.</li>
+            <li><b>Visibility:</b> Submissions and reviews will not be public. Only accepted papers will be made public.</li>
+            <li>We encourage the participants of the affiliated challenge to submit technical reports which summarizing their solutions.</li>
+            <li><b>Contact:</b> <a href="mailto:iclr2022gpl@gmail.com">iclr2022gpl@gmail.com</a></li>
+          </ul>
+        </p> -->
+
+        <div class="section" id="schedule">
+            <h2>Workshop Schedule (Tentative)</h2>
+            <style type="text/css">
+                .tg .tg-u4qn {
+                    background-color: #D9D9D9;
+                    text-align: left;
+                    vertical-align: bottom
+                }
+
+                .tg-za14 {
+                    width: 600px;
+                }
+
+                /* .tg .tg-7zrl{text-align:left;vertical-align:bottom} */
+            </style>
+            <table class="tg">
+                <thead>
+                <tr>
+                    <th class="tg-u4qn"><span style="background-color:#D9D9D9">Start Time (PDT)</span></th>
+                    <th class="tg-u4qn"><span style="background-color:#D9D9D9">End Time (PDT)</span></th>
+                    <th class="tg-u4qn"><span style="background-color:#D9D9D9">Event</span></th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td class="tg-jkyp">8:45 AM</td>
+                    <td class="tg-jkyp">9:00 AM</td>
+                    <td class="tg-za14">Welcome and introduction</td>
+                </tr>
+
+                <tr>
+                    <td class="tg-jkyp">9:00 AM</td>
+                    <td class="tg-jkyp">9:25 AM</td>
+                    <td class="tg-za14"><b>Talk #1 </b> <br/> Talk Title (TBD)</td>
+                </tr>
+
+                <tr>
+                    <td class="tg-jkyp">9:25 AM</td>
+                    <td class="tg-jkyp">9:50 AM</td>
+                    <td class="tg-za14"><b>Talk #2 </b> <br/> Talk Title (TBD)</td>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="tg-jkyp">9:50 AM</td>
+                    <td class="tg-jkyp">10:00 AM</td>
+                    <td class="tg-za14">Lightning talk</td>
+                </tr>
+
+                <tr>
+                    <td class="tg-jkyp">10:00 AM</td>
+                    <td class="tg-jkyp">10:45 AM</td>
+                    <td class="tg-za14">Coffee break with poster presentations</td>
+                </tr>
+
+                <tr>
+                    <td class="tg-jkyp">10:45 AM</td>
+                    <td class="tg-jkyp">11:10 AM</td>
+                    <td class="tg-za14"><b>Talk #3 </b> <br/> Talk Title (TBD)</td>
+                </tr>
+
+                <tr>
+                    <td class="tg-jkyp">11:10 AM</td>
+                    <td class="tg-jkyp">11:35 AM</td>
+                    <td class="tg-za14"><b>Talk #4 </b> <br/> Talk Title (TBD)</td>
+                </tr>
+
+                <tr>
+                    <td class="tg-jkyp">11:35 AM</td>
+                    <td class="tg-jkyp">12:30 PM</td>
+                    <td class="tg-za14">Panel discussion</td>
+                </tr>
+
+                <tr>
+                    <td class="tg-jkyp">12:30 PM</td>
+                    <td class="tg-jkyp">2:00 PM</td>
+                    <td class="tg-za14">Lunch break</td>
+                </tr>
+
+                <tr>
+                    <td class="tg-jkyp">2:00 PM</td>
+                    <td class="tg-jkyp">2:25 PM</td>
+                    <td class="tg-za14"><b>Talk #5 </b> <br/> Talk Title (TBD)</td>
+                </tr>
+
+                <tr>
+                    <td class="tg-jkyp">2:25 PM</td>
+                    <td class="tg-jkyp">2:50 PM</td>
+                    <td class="tg-za14"><b>Talk #6 </b> <br/> Talk Title (TBD)</td>
+                </tr>
+
+                <tr>
+                    <td class="tg-jkyp">2:50 PM</td>
+                    <td class="tg-jkyp">3:00 PM</td>
+                    <td class="tg-za14">Lightning talk</td>
+                </tr>
+
+                <tr>
+                    <td class="tg-jkyp">3:00 PM</td>
+                    <td class="tg-jkyp">3:45 PM</td>
+                    <td class="tg-za14">Coffee break with poster presentations</td>
+                </tr>
+
+                <tr>
+                    <td class="tg-jkyp">3:45 PM</td>
+                    <td class="tg-jkyp">4:10 PM</td>
+                    <td class="tg-za14"><b>Talk #7 </b> <br/> Talk Title (TBD)</td>
+                </tr>
+
+                <tr>
+                    <td class="tg-jkyp">4:10 PM</td>
+                    <td class="tg-jkyp">4:35 PM</td>
+                    <td class="tg-za14"><b>Talk #8 </b> <br/> Talk Title (TBD)</td>
+                </tr>
+
+                <tr>
+                    <td class="tg-jkyp">4:35 PM</td>
+                    <td class="tg-jkyp">5:30 PM</td>
+                    <td class="tg-za14">Panel discussion or debate</td>
+                </tr>
+
+                <tr>
+                    <td class="tg-jkyp">5:30 PM</td>
+                    <td class="tg-jkyp">5:40 PM</td>
+                    <td class="tg-za14">Closing remarks and awards</td>
+                </tr>
+
+                </tbody>
+            </table>
+
+        </div>
+
+        <div class="section" id="speakers">
+            <h2>Invited Speakers</h2>
+            <p> listed alphabetically </p>
+            <div class="people">
+
+
+                <a href="https://web.stanford.edu/~bohg/">
+                    <img src="./static/images/jeannette.png">
+                    <div>Jeannette Bohg</div>
+                    <div class="aff">Stanford University</div>
+                </a>
+
+                <a href="https://www.linkedin.com/in/richard-cheng-83838088/">
+                    <img src="./static/images/richard.jpeg">
+                    <div>Richard Cheng</div>
+                    <div class="aff">Toyota Research Institute</div>
+                </a>
+
+                <a href="https://ai.stanford.edu/~cbfinn/">
+                    <img src="./static/images/chelsea.jpg">
+                    <div>Chelsea Finn</div>
+                    <div class="aff">Stanford University</div>
+                </a>
+
+                <a href="https://www.csail.mit.edu/person/leslie-kaelbling">
+                    <img src="./static/images/kaelbling.jpg">
+                    <div>Leslie Kaelbling</div>
+                    <div class="aff">Massachusetts Institute of Technology</div>
+                </a>
+
+                <a href="https://robertomartinmartin.com/">
+                    <img src="./static/images/roberto_martinmartin.jpg">
+                    <div>Roberto Martín-Martín</div>
+                    <div class="aff">The University of Texas at Austin</div>
+                </a>
+
+                <a href="https://www.lerrelpinto.com/">
+                    <img src="./static/images/lerrel.jpeg">
+                    <div>Lerrel Pinto</div>
+                    <div class="aff">New York University</div>
+                </a>
+
+                <a href="https://shurans.github.io/">
+                    <img src="./static/images/shuran_song.jpg">
+                    <div>Shuran Song</div>
+                    <div class="aff">Stanford University</div>
+                </a>
+
+
+            </div>
+        </div>
+
+
+        <div class="section" id="organizers">
+            <h2>Organizers</h2>
+            <!-- <p> listed alphabetically </p> -->
+            <div class="people">
+                <a href="https://duanjiafei.com/">
+                    <img src="./static/images/jiafei.png">
+                    <div>Jiaefei Dian</div>
+                    <div class="aff">University of Washington</div>
+                </a>
+
+                <a href="https://yunfanj.com/">
+                    <img src="./static/images/yunfan.jpg">
+                    <div>Yunfan Jiang</div>
+                    <div class="aff">Stanford University</div>
+                </a>
+
+                <a href="https://arjung128.github.io/">
+                    <img src="./static/images/arjun.jpeg">
+                    <div>Arjun Gupta</div>
+                    <div class="aff">University of Illinois at Urbana-Champaign</div>
+                </a>
+
+                <a href="https://ainaz99.github.io/">
+                    <img src="./static/images/ainaz.png">
+                    <div>Ainaz Eftekhar</div>
+                    <div class="aff">University of Washington</div>
+                </a>
+
+                <a href="https://huihanl.github.io/">
+                    <img src="./static/images/huihan.png">
+                    <div>Huihan Liu</div>
+                    <div class="aff">The University of Texas at Austin</div>
+                </a>
+
+                <a href="https://yjy0625.github.io/">
+                    <img src="./static/images/jingyun.jpeg">
+                    <div>Jingyun Yang</div>
+                    <div class="aff">Stanford University</div>
+                </a>
+
+                <a href="https://mahis.life/">
+                    <img src="./static/images/mahi.jpg">
+                    <div>Nur Muhammad "Mahi" Shafiullah</div>
+                    <div class="aff">New York University</div>
+                </a>
+
+                <a href="https://ai.stanford.edu/~zharu/">
+                    <img src="./static/images/ruohan.jpg">
+                    <div>Ruohan Zhang</div>
+                    <div class="aff">Stanford University</div>
+                </a>
+
+                <a href="https://shahrutav.github.io/">
+                    <img src="./static/images/rutav.png">
+                    <div>Rutav Shah</div>
+                    <div class="aff">The University of Texas at Austin</div>
+                </a>
+
+                <a href="https://haoyu-x.github.io/">
+                    <img src="./static/images/haoyux.png">
+                    <div>Haoyu Xiong</div>
+                    <div class="aff">Stanford University</div>
+                </a>
+
+                <a href="https://kuohaozeng.github.io/">
+                    <img src="./static/images/kuo-hao.jpg">
+                    <div>Kuo-Hao Zeng</div>
+                    <div class="aff">Allen Institute for AI</div>
+                </a>
+
+                <a href="https://yukezhu.me/">
+                    <img src="./static/images/yukezhu.jpg">
+                    <div>Yuke Zhu</div>
+                    <div class="aff">The University of Texas at Austin</div>
+                </a>
+
+                <a href="https://yuchencui.cc/">
+                    <img src="./static/images/yuchen.png">
+                    <div>Yuchen Cui</div>
+                    <div class="aff">University of California, Los Angeles</div>
+                </a>
+
+                <a href="https://profiles.stanford.edu/fei-fei-li">
+                    <img src="./static/images/feifei.jpg">
+                    <div>Fei-Fei Li</div>
+                    <div class="aff">Stanford University</div>
+                </a>
+
+            </div>
+        </div>
+
+
+        <div class="foot">
+            The website template is borrowed from <a
+                href="https://ai-workshops.github.io/generalizable-policy-learning-in-the-physical-world/">here</a>.
+            <br>
+            For inquiries, contact us at: <a href="mailto:rss-mobile-manipulation@googlegroups.com">rss-mobile-manipulation@googlegroups.com</a>
+        </div>
+
+</body>
+
+</html>
